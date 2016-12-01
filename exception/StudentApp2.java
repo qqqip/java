@@ -11,7 +11,6 @@ public class StudentApp2 {
 		String [] str = text.split("\t");
 
 		// 타입 변환
-			
 		a.setName(str[0]);
 		a.setGrade(str[1]);
 		a.setKor(Double.parseDouble(str[2]));
